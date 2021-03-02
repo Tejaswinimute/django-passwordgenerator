@@ -3,7 +3,7 @@ from django.http import HttpResponse
 import random
 
 def home(request):
-    return render(request,'home.html')
+    return render(request,'index.html')
 def password(request):
 
     character=list('abcdefghijklmnopqrstuvwxyz')
